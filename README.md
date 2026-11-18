@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 GamingHub - Dashboard de Estadísticas y Gestión de Personajes
 
-## Getting Started
+Aplicación web interactiva desarrollada con **Next.js** y **TypeScript** diseñada para gestionar personajes de RPG, registrar progresos de nivel y llevar un control detallado de victorias individuales y globales.
 
-First, run the development server:
+🔗 **Demo en vivo:** [Ver proyecto en Vercel](https://tu-link-de-vercel.vercel.app)
 
-```bash
+---
+
+## ✨ Características Principales
+
+* **Dashboard en Tiempo Real:** Visualización automática de métricas clave (personajes activos, nivel máximo alcanzado y suma total de victorias).
+* **Gestión Completa de Personajes (CRUD):** Creación, aumento de nivel (`+1 Nivel`), registro de victorias individuales (`+1 Victoria`) y eliminación de personajes.
+* **Sistema de Clases Tipado:** Clasificación visual con insignias, colores e iconos dinámicos según la clase (*Dark Knight*, *High Elf*, *Magic Gladiator*, *Dark Lord*).
+* **Persistencia Local:** Almacenamiento automático de datos mediante `localStorage` para conservar el progreso sin necesidad de una base de datos externa.
+* **Interfaz Moderna y Responsiva:** Diseño oscuro con bordes suavizados, modales de confirmación personalizados y adaptación completa a dispositivos móviles y escritorio.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+* **Framework:** Next.js (App Router)
+* **Lenguajes:** TypeScript, JavaScript (ES6+)
+* **Estilos:** Tailwind CSS
+* **Iconografía:** Lucide React
+* **Despliegue:** Vercel
+
+---
+
+## 🚀 Instalación y Uso Local
+
+1. Clonar el repositorio:
+   bash
+   git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
+
+ 2. Entrar a la carpeta del proyecto e instalar dependencias:
+   Bash
+   cd tu-repositorio
+   npm install
+
+3. Iniciar el servidor de desarrollo:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Abrir http://localhost:3000 en el navegador.
